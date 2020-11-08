@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yu Mincho';
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+input {
+    outline: none;
+}
+
+/*------------------ヘッダー始まり------------------*/
+.headerTitle {
+    width: 1000px;
+    margin: 50px auto;
+}
+/*------------------ヘッダー終わり------------------*/
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+.mainTop {
+    line-height: 20px;
+}
+
+.mainMiddle {
+    height: 600px;
+    font-size: 20px;
+}
+
+.mainMiddleAudio {
+    text-align: center;
+}
+
+.mainMiddleAudio audio{
+    width: 400px;
+    height: 40px;
+}
+
+.tableLeft {
+    float: left;
+    width: 40%;
+    margin: 20px 0 20px 50px;
+    text-align: center;
+}
+
+.tableLeft th {
+    width: 30%;
+    border: 1px solid gray;
+}
+
+.tableLeft td {
+    width: 30%;
+    border: 1px solid gray;
+}
+
+.tableRight {
+    float: right;
+    width: 40%;
+    margin: 20px 50px 20px 0;
+    text-align: center;
+}
+
+.tableRight th {
+    width: 30%;
+    border: 1px solid gray;
+}
+
+.tableRight td {
+    width: 30%;
+    border: 1px solid gray;
+}
+
+#cursive {
+    font-family: 'Dancing Script', cursive;
+}
+
+.mainBottom {
+    width: 700px;
+    margin: auto;
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mainBottom1 h2{
+    padding-left: 5px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.mainBottom1_1 {
+    padding-left: 20px;
+}
+
+.mainBottom1_2 section{
+    float: left;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.mainBottom1_2_Audio p{
+    float: left;
+    margin: 10px 0;
+}
+
+.audioPlay img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.mainBottom2 {
+    padding: 20px 0;
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mainBottom2 h2{
+    margin-top: 50px;
+    padding-left: 5px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.mainBottom2_1 {
+    padding-left: 20px;
+}
+
+.mainBottom2_2 section {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.mainBottom2_2_question {
+    clear: both;
+}
+
+.mainBottom2_2_question b {
+    padding-right: 10px;
+}
+
+.mainBottom2_2_question p,b{
+    float: left;
+    margin: 0 0 10px 0;
+}
+
+.answerAddTure {
+    padding-left: 100px;
+    color: limegreen;
+}
+
+.answerAddFault {
+    padding-left: 100px;
+    color: orangered;
+}
+
+.mainBottom2_2_answer p{
+    display: inline-block;
+    margin: 20px 250px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainBottom2_2_hidden p {
+    display: none;
+    margin: 20px 250px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainBottom3 {
+    padding: 20px 0;
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mainBottom3 h2{
+    margin-top: 50px;
+    padding-left: 5px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.mainBottom3_1 {
+    padding-left: 20px;
+}
+
+.mainBottom3_2 section{
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.mainBottom3_2_answer p{
+    display: inline-block;
+    margin: 20px 250px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainBottom3_2_hidden p {
+    display: none;
+    margin: 20px 250px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.answerAddTure2 {
+    padding-left: 15px;
+    color: limegreen;
+}
+
+.answerAddFault2 {
+    padding-left: 15px;
+    color: orangered;
+}
+
+.mainBottom4 {
+    padding: 20px 0;
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mainBottom4 h2{
+    margin-top: 50px;
+    padding-left: 5px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.mainBottom4_1 {
+    padding-left: 20px;
+}
+
+.mainBottom4_2 section{
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}

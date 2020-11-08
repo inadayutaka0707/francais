@@ -1,0 +1,411 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body button,h1,p,h2,a,h3 {
+    font-family: 'Yu Mincho';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+/*------------------ヘッダー始まり------------------*/
+header {
+    height: 75px;
+    width: auto;
+    line-height: 0px;
+}
+
+#top {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    transition: .3s cubic-bezier(.4,0,.2,1);
+    z-index: 199999;
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.head-animation {
+    transform: translateY(-100%);
+}
+
+.topLeft {
+    float: left;
+    width: 30%;
+    line-height: 100%;
+}
+
+.topLeft a {
+    font-size: 70px;
+    padding: 0 0px 0 50px;
+    text-shadow: 3px 3px orangered, -3px -3px dodgerblue;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.topCenter {
+    line-height: 100%;
+    float: left;
+    width: 50%;
+}
+
+.topCenter p {
+    float: left;
+    list-style: none;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.topCenter p:hover {
+    color: orangered;
+    transform: scale(1.2);
+}
+
+.topRight {
+    float: right;
+    width: 100px;
+    margin: 20px 0;
+    padding: 0 30px;
+    height: auto;
+}
+
+.topRight p {
+    text-align: center;
+    margin: 0;
+    line-height: 200%;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 500;
+    border-bottom: solid 3px gray;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 0 0 1px 1px;
+    display: block;
+}
+
+.topRight p:active {
+    transform: translateY(3px);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+    border-radius: 0;
+}
+/*------------------ヘッダー終わり------------------*/
+
+/*------------------メイントップ始まり------------------*/
+main {
+    margin: 0 250px;
+}
+
+.mainTop {
+    float: left;
+    padding: 20px 0;
+    height: 500px;
+    width: 1000px;
+}
+
+.mainTopImage {
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+}
+
+.loginForm {
+    float: left;
+    height: 40px;
+    width: 700px;
+    margin: 0 150px;
+}
+
+.loginFormInput {
+    float: left;
+    height: 40px;
+}
+
+.loginFormName {
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.loginFormEmail {
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.loginFormLogin p {
+    font-weight: normal;
+    float: left;
+    width: 200px;
+    height: 30px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 25px;
+    background-color: orange;
+    color: darkslategray;
+    border: 3px solid orange;
+    border-radius: 3px;
+}
+
+.loginFormLogin p:hover {
+    color: black;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+/*------------------メイントップ終わり------------------*/
+
+/*------------------メインセンター始まり------------------*/
+.mainCenterBlog {
+    float: left;
+    width: 800px;
+}
+
+.mainCenterBlogList {
+    height: 250px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+.mainCenterBlogTitle {
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    background-color: aquamarine;
+}
+
+.mainCenterBlogText {
+    float: left;
+    height: 250px;
+    width: 530px;
+    background-color: aqua;
+}
+
+.mainCenterBlogBorder {
+    float: left;
+    height: 20px;
+    width: 530px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    border-bottom: 1px solid gray;
+}
+
+.mainCenterBlogPage {
+    float: right;
+    height: 30px;
+    width: 152px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.pageList p {
+    height: 30px;
+    width: 150px;
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+    border: 1px solid blue;
+    background-color: aquamarine;
+}
+
+.pageList p:hover {
+    background-color: aqua;
+}
+
+.mainCenterSNS {
+    float: left;
+    width: 160px;
+    margin: 0 20px;
+}
+
+.mainCenterSNS ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mainCenterSNS p {
+    height: 25px;
+    width: 25px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.mainCenterSNS li {
+    float: left;
+    margin: 0 20px 20px 0;
+    text-align: center;
+    list-style: none;
+    transition: 0.8s;
+}
+
+.mainCenterSNS li:hover {
+    transform: rotateY(360deg);
+}
+
+.mainCenterSNS li:nth-child(4n) {
+    margin: 0 0 20px 0;
+}
+
+.mainCenterLogin {
+    float: left;
+    height: 400px;
+    width: 180px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.mainCenterName {
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.mainCenterEmail {
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.mainCenterButton {
+    margin: 10px auto;
+    width: 100px;
+}
+
+.mainCenterButton p {
+    font-weight: bold;
+    background-color: orange;
+    color: darkslategray;
+    border: 1px solid orange;
+    border-radius: 3px;
+}
+
+.mainCenterButton p:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    color: black;
+}
+
+.mainCenterSummary {
+    float: left;
+    height: 600px;
+    width: 180px;
+    margin: 10px 10px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.mainCenterSummary h2 {
+    font-size: 25px;
+}
+
+.mainCenterSummary p {
+    font-size: 15px;
+}
+
+.mainCenterSummary1 {
+    width: 160px;
+    margin: 0 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.mainCenterSummary2 {
+    width: 160px;
+    margin: 0 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.mainCenterSummary3 {
+    width: 160px;
+    margin: 0 10px;
+    padding-bottom: 30px;
+}
+/*------------------メインセンター終わり------------------*/
+
+/*------------------フッター始まり------------------*/
+
+.footer {
+    height: auto;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footerMail {
+    display: inline-block;
+    text-align: center;
+    margin:auto;
+    height: 30px;
+    padding: 10px;
+}
+
+.footerMailName {
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.footerMailEmail {
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.footerMailLogin p {
+    float: left;
+    width: 30%;
+    height: 30px;
+    margin: 0;
+    font-size: 20px;
+    background-color: orange;
+    color: darkslategray;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+
+.footerMailLogin p:hover {
+    color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+/*------------------フッター終わり------------------*/

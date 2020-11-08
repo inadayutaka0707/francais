@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yu Mincho';
+}
+
+table {
+    border-spacing: none;
+    border-collapse: collapse;
+}
+
+/*----------------------------------------------------------------------*/
+.header {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+main {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.mainTop p {
+    padding-left: 20px;
+}
+
+.mainTop h3 {
+    padding-left: 10px;
+}
+
+.mainTop table {
+    margin-left: 10px;
+}
+
+.mainTop span {
+    font-weight: 900;
+    color: red;
+}
+
+.mainTopList section {
+    float: left;
+    width: 500px;
+}
+
+.mainTopList th {
+    width: 100px;
+    padding: 10px 0;
+    border: 1px solid black;
+}
+
+.mainTopList td {
+    border: 1px solid black;
+    padding: 0;
+    padding-left: 10px;
+    width: 180px;
+    font-size: 18px;
+}
+
+.mainMiddle {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.mainMiddle p {
+    padding-left: 20px;
+}
+
+.mainMiddle table {
+    width: 500px;
+    margin-left: 10px;
+}
+
+.mainMiddle span {
+    font-weight: 900;
+    color: red;
+}
+
+.mainMiddleList th {
+    width: 100px;
+    padding: 10px 0;
+    border: 1px solid black;
+}
+
+.mainMiddleList td {
+    border: 1px solid black;
+    padding: 0;
+    padding-left: 10px;
+    width: 180px;
+    font-size: 18px;
+}
+
+.mainBottom span {
+    font-weight: 900;
+    color: red;
+}
+
+.mainBottom1 p {
+    padding-left: 20px;
+}
+
+.mainBottom tr {
+    width: 600px;
+    margin-left: 10px;
+}
+
+.mainBottom th {
+    border: 1px solid black;
+    width: 50px;
+}
+
+.mainBottom th:nth-child(2) {
+    width: 200px;
+    font-size: 20px;
+}
+
+.mainBottom td {
+    text-align: center;
+    border: 1px solid black;
+    width: 50px;
+}
+
+.mainBottom td:nth-child(4) {
+    border: none;
+    line-height: 50%;
+    background-color: white;
+}
+
+.mainBottom td:nth-child(6) {
+    width: 300px;
+}
+
+.mainBottom1_2 {
+    width: 350px;
+    float: left;
+}
+
+.mainBottom1_2 p {
+    width: 150px;
+    margin: 20px 100px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.mainBottom1_3 {
+    width: 350px;
+    float: left;
+    padding-left: 350px;
+}
+
+.mainBottom1_3 p {
+    width: 150px;
+    margin: 20px 100px;
+    display: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}

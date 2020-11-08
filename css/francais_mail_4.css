@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Yu Mincho";
+}
+
+table {
+    border-spacing: none;
+    border-collapse: collapse;
+}
+
+header {
+    width: 800px;
+    padding: 50px 0;
+    margin: auto;
+}
+
+input,audio {
+    outline: none;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+}
+
+.mainTop {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.mainTop p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.mainMiddle {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.mainMiddle p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.mainBottom {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.mainBottom p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.mainBottom span {
+    border-bottom: 1px solid black;
+}
+
+.quizContent1 {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.quizContent1 td {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.quizContentAnswer4_1 p {
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.quizContentAnswer4_2 p {
+    display: none;
+}
+
+.quizContent2 {
+    float: left;
+    width: 700px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.quizContentTitle {
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.quizContentTitle h3{
+    float: left;
+    margin: 0;
+}
+
+.quizContent2 section {
+    padding-left: 20px;
+    float: left;
+}
+
+.quizContent2_1 {
+    float: left;
+}
+
+.quizContent2_1 p {
+    float: left;
+    margin: 0;
+    padding: 30px 60px 50px 30px;
+}
+
+.quizContent2_2 {
+    float: left;
+}
+
+.quizContent2_2 p {
+    float: left;
+    margin: 0;
+    padding: 30px 60px 50px 30px;
+}
+
+.quizContent2_3 {
+    float: left;
+}
+
+.quizContent2_3 p {
+    float: left;
+    margin: 0;
+    padding: 30px 60px 50px 30px;
+}
+
+.quizContentAnswer4_3 p {
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    clear: both;
+    cursor: pointer;
+}
+
+.quizContentAnswer4_4 p {
+    display: none;
+}

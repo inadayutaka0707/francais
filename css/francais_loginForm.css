@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+body button,h1,p,h2,a,h3 {
+    font-family: 'Yu Mincho';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+/*------------------ヘッダー始まり------------------*/
+.loginHeader {
+    width: 500px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+/*------------------ヘッダー終わり------------------*/
+
+/*------------------メイン始まり------------------*/
+.loginMain {
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.loginMainTop {
+    width: 400px;
+    margin: auto;
+}
+
+.loginMainTop p {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.loginMainTop input {
+    width: 400px;
+    height: 30px;
+}
+
+.loginMainMiddle {
+    width: 400px;
+    margin: auto;
+}
+
+.loginMainMiddle p {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.loginMainMiddle input {
+    width: 400px;
+    height: 30px;
+}
+
+.loginMainBottomLeft {
+    float: left;
+    width: 300px;
+    margin: auto;
+}
+
+.loginMainBottomLeft input {
+    float: left;
+    margin: 50px 0 0 50px;
+}
+
+.loginMainBottomLeft p {
+    float: left;
+    margin: 45px 0 0 5px;
+}
+
+.loginMainBottomRight p {
+    float: right;
+    width: 100px;
+    margin: 45px 50px 0 0;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid orange;
+    background-color: orange;
+    color: gray;
+}
+
+.loginMainBottomRight p:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    color: black;
+}
+/*------------------メイン終わり------------------*/
+
+/*------------------フッター始まり------------------*/
+.loginFooter {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+}
+
+.loginFooter p {
+    margin: 20px 0 0 50px;
+}
+/*------------------フッター終わり------------------*/

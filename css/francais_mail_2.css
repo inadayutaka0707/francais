@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yu Mincho';
+}
+
+table {
+    border-spacing: none;
+    border-collapse: collapse;
+}
+
+/*-----------------------------------------------------------*/
+
+header {
+    width: 800px;
+    margin: 50px auto;
+}
+
+header p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+main {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.mainTop p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.mainTopContent p {
+    padding: 10px 0 0 10px;
+}
+
+.mainTopContent p:nth-child(2) {
+    padding: 0 0 10px 10px;
+}
+
+.mainMiddle {
+    width: 600px;
+    margin: 50px auto;
+    font-family: arial, sans-serif;
+}
+
+.mainMiddle span {
+    font-weight: bold;
+    color: red;
+}
+
+.mainMiddle th {
+    width: 200px;
+    border: 1px solid black;
+}
+
+.mainMiddle td {
+    width: 200px;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+
+.mainMiddleExample {
+    background-color: gray;
+    text-align: center;
+}
+
+.mainMiddleContents {
+    background-color: lightblue;
+}
+
+.mainBottom1 p{
+    padding-left: 20px;
+    margin: 0;
+}
+
+.mainBottom1_1 {
+/*    float: left;*/
+    width: 600px;
+    margin: 20px auto;
+}
+
+.mainBottom1_1 span {
+    font-weight: 900;
+    color: red;
+}
+
+.mainBottom1_1 th {
+    width: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.mainBottom1_1 th:nth-child(2){
+    width: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.mainBottom1_1 td{
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.mainBottom1_1 td:nth-child(4) {
+    border: none;
+    line-height: 50%;
+    background-color: white;
+}
+
+.mainBottom1_1 td:nth-child(6) {
+    width: 300px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.audioPlay {
+    margin: 0;
+    cursor: pointer;
+}
+
+.mainBottom1_2 {
+    width: 300px;
+    text-align: center;
+    float: left;
+}
+
+.mainBottom1_2 p {
+    margin: 20px 0 0 0;
+    padding: 0 10px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------------*/

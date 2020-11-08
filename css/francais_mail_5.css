@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Yu Mincho";
+}
+
+table {
+    border-spacing: none;
+    border-collapse: collapse;
+}
+
+input {
+    outline: none;
+}
+
+header {
+    width: 1200px;
+    margin: auto;
+font-size: 20px;
+}
+
+.headerContent {
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.mainContent1_text {
+    padding: 50px 0;
+}
+
+.mainContent1_text h3 {
+    font-size: 30px;
+}
+
+.mainContent1_text p {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.mainContent2_text {
+    padding: 50px 0;
+}
+
+.mainContent2_text p {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.quizContentTitle {
+    font-size: 30px;
+}
+
+.quizContent1 {
+    width: 600px;
+    font-size: 20px;
+}
+
+.quizContent1 table {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.quizContent1 td {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.quizContent1 td:nth-child(1) {
+    color: black;
+}
+
+.quizContent1 td:nth-child(2) {
+    color: black;
+}
+
+.answer p {
+    width: 150px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hiddenBottom p {
+    display: none;
+}
+
+.quizContent2 {
+    width: 700px;
+    font-size: 18px;
+}
+
+.quizContent2_No p {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.quizContent2 table {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.quizContent2 td {
+    width: 150px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.quizContent2 td:nth-child(1) {
+    width: 20px;
+    padding-right: 10px;
+    color: black;
+}
+
+.quizContent2 td:nth-child(2) {
+    color: black;
+}
+
+.quizContent2 td:nth-child(3) {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.quizContent2 td:nth-child(4) {
+    width: 400px;
+}
