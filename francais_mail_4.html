@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>あいさつ</title>
+        <meta charset="utf-8">
+        <link href="css/francais_mail_4.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="headerTitle">
+                <h1>あいさつ</h1>
+            </div>
+        </header>
+        
+        <main>
+            <div class="mainTop">
+                <div class="mainTopPicture">
+                    <img src="img/poulet.jpg" width=500px height=300px>
+                </div>
+                <div class="mainTopContent">
+                    <p>フランス語で「こんにちは」はBonjourと言います。</p>
+                    <p>「bonjour」の由来は「いい日」です。</p>
+                    <p>いつでもどの場合でも使えます。</p>
+                    <br>
+                    <p>音を分析してみましょう。</p>
+                    <br>
+                    <p>まず、o + n を組み合わせると一つになります。</p>
+                    <p>鼻母音と言います。</p>
+                    <p>なので、最初の「bon」は「ボン」と読みます。この三つの文字で一つの音になります。</p>
+                    <br>
+                    <p>「j」は英語と違うのでご注意ください。舌を動かさずに発音してください。</p>
+                    <br>
+                    <p>次、o+u を組み合わせると[u]という音ができます。</p>
+                    <br>
+                    <p>「r」は発音は場合によって異なりますが、言葉の最後だと軽く発音してもいいです。</p>
+                    <p>少し喉を鳴らして発音してみてください。</p>
+                    <br>
+                    <p>友達に会う時はSalutと言います。</p>
+                </div>
+            </div>
+            <div class="mainMiddle">
+                <div class="mainMiddlePicture">
+                    <img src="img/poulet.jpg" width=500px height=300px>
+                </div>
+                <div class="mainMiddleContent">
+                    <p>今回は友達言葉のあいさつです。カジュアルな挨拶です。</p>
+                    <br>
+                    <p>バイバイという意味もあるのでとても便利な言葉です。</p>
+                    <br>
+                    <p>「u」の発音は先の「ou」と違います。</p>
+                    <p>口を「ou」をいう時みたいに丸くして、そのまま「i」を言ってみると「u」がきれいに発音できます。</p>
+                    <br>
+                    <p>Salutの最後にある「t」は発音しません。</p>
+                    <p>基本的には言葉の最後にある子音を発音しない場合が多いです。</p>
+                </div>
+            </div>
+            <div class="mainBottom">
+                <div class="mainBottomPicture">
+                    <img src="img/poulet.jpg" width=500px height=300px>
+                </div>
+                <div class="mainBottomContent">
+                    <p>最後のポイントは午後５時以降に使えるあいさつです。</p>
+                    <p>Bonsoir　と言います。</p>
+                    <p>o + i　は前回のレッスンに出てきた半母音で[w]になります。（日本語の「ワ」と同じ音です。）</p>
+                    <br>
+                    <p>単語の強勢アクセントは必ず最後の音節におきます。</p>
+                    <p>Bon<span>jour</span>.</p>
+                    <p>Bon<span>soir</span>.</p>
+                </div>
+            </div>
+            <div class="quiz">
+                <div class="quizTitle">
+                    <h2>Quiz</h2>
+                </div>
+                <div class="quizContent1">
+                    <p>１：次の言葉の意味は何ですか。</p>
+                    <table id="table">
+                        <tr id="quizContentAdd1_1">
+                            <td>Bonsoir</td>
+                            <td>=</td>
+                            <td><input type="text" id="quizContent1_1"></td>
+                        </tr>
+                        <tr id="quizContentAdd1_2">
+                            <td>Bonjour</td>
+                            <td>=</td>
+                            <td><input type="text" id="quizContent1_2"></td>
+                        </tr>
+                        <tr id="quizContentAdd1_3">
+                            <td>Salut</td>
+                            <td>=</td>
+                            <td><input type="text" id="quizContent1_3"></td>
+                        </tr>
+                    </table>
+                    <div class="quizContentAnswer4_1">
+                        <p onclick="answer4_1()" id="answer4_1">答え合わせ</p>
+                        <div class="quizContentAnswer4_2">
+                            <p onclick="answer4_2()" id="answer4_2">答えを隠す</p>
+                        </div>    
+                    </div>
+                </div>
+                <div class="quizContent2">
+                    <p>２：次の文字は何と発音しますか。(選択した音声が流れます)</p>
+                    <section class="quizContent2_1">
+                        <div class="quizContentTitle" id="quizContentTitle1">
+                            <h3>OI</h3>
+                        </div>
+                        <p onclick="francais_mail_4_Audio1()" class="audioPlay">a.<input type="radio" name="oi" id="francais_mail_4_Answer1"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio1">
+                            <source src="Audio/1.mp3" rel="audio/mp3">
+                        </audio>
+                        <p onclick="francais_mail_4_Audio2()" class="audioPlay">b.<input type="radio" name="oi" id="francais_mail_4_Answer2"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio2">
+                            <source src="Audio/2.mp3" rel="audio/mp3">
+                        </audio>
+                        <p onclick="francais_mail_4_Audio3()" class="audioPlay">c.<input type="radio" name="oi" id="francais_mail_4_Answer3"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio3">
+                            <source src="Audio/3.mp3" rel="audio/mp3">
+                        </audio>
+                        <div class="quizContent2_1" id="francais_mail_4_quizContent2_1"></div>
+                    </section>
+                    <section class="quizContent2_2">
+                        <div class="quizContentTitle" id="quizContentTitle2">
+                            <h3>OU</h3>
+                        </div>
+                        <p onclick="francais_mail_4_Audio4()" class="audioPlay">a.<input type="radio" name="ou" id="francais_mail_4_Answer4"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio4">
+                            <source src="Audio/6.mp3" rel="audio/mp3">
+                        </audio>
+                        <p onclick="francais_mail_4_Audio5()" class="audioPlay">b.<input type="radio" name="ou" id="francais_mail_4_Answer5"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio5">
+                            <source src="Audio/6.mp3" rel="audio/mp3">
+                        </audio>
+                        <p onclick="francais_mail_4_Audio6()" class="audioPlay">c.<input type="radio" name="ou" id="francais_mail_4_Answer6"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio6">
+                            <source src="Audio/6.mp3" rel="audio/mp3">
+                        </audio>
+                        <div class="quizContent2_2" id="francais_mail_4_quizContent2_2"></div>
+                    </section>
+                    <section class="quizContent2_3">
+                        <div class="quizContentTitle" id="quizContentTitle3">
+                            <h3>BON</h3>
+                        </div>
+                        <p onclick="francais_mail_4_Audio7()" class="audioPlay">a.<input type="radio" name="bon" id="francais_mail_4_Answer7"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio7">
+                            <source src="Audio/6.mp3" rel="audio/mp3">
+                        </audio>
+                        <p onclick="francais_mail_4_Audio8()" class="audioPlay">b.<input type="radio" name="bon" id="francais_mail_4_Answer8"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio8">
+                            <source src="Audio/6.mp3" rel="audio/mp3">
+                        </audio>
+                        <p onclick="francais_mail_4_Audio9()" class="audioPlay">c.<input type="radio" name="bon" id="francais_mail_4_Answer9"></p>
+                        <audio replay="auto" id="francais_mail_4_Audio9">
+                            <source src="Audio/6.mp3" rel="audio/mp3">
+                        </audio>
+                        <div class="quizContent2_3" id="francais_mail_4_quizContent2_3"></div>
+                    </section>
+                    <div class="quizContentAnswer4_3">
+                        <p onclick="answer4_3()" id="answer4_3">答え合わせ</p>
+                        <div class="quizContentAnswer4_4">
+                            <p onclick="answer4_4()" id="answer4_4">答えを隠す</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="francais_mail.js"></script>
+    </body>
+</html>

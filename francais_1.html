@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bonjour</title>
+        <link href="css/francais_1.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- ヘッダー始まり -->
+        <header>
+            <div id="top">
+                <div class="topLeft" id="topLeft">
+                    <h1><a href="francais.html">Francais</a></h1>
+                </div>
+                <div class="topCenter" id="topCenter">
+                    <a href="francais_Profile.html"><p>Profile</p></a>
+                    <a href=""><p>-------</p></a>
+                    <a href=""><p>-------</p></a>
+                    <a href=""><p>-------</p></a>
+                </div>
+                <div class="topRight" id="topRight">
+                    <a href="francais_loginForm.html"><p>ログイン</p></a>
+                </div>
+            </div>
+        </header>
+        <!-- ヘッダー終わり -->
+        
+        <!-- メイン始まり -->
+        <main>
+            <div id="js-scroll-fadein" class="js-scroll-fadein arrow"><p></p></div>
+            <div class="mainTop" id="mainTop">
+                <h2>Francais</h2>
+                <p>リアルなフランス語</p>
+            </div>
+            <div class="mainMiddle" id="mainMiddle">
+                <div class="mainMiddleTitle">
+                    <h2>1.Bonjour!</h2>
+                </div>
+                <div class="youtubeVideo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9geK--BZDC4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="mainMiddleDialogue" id="mainMiddleDialogue">
+                    <div class="mainMiddleDialogueTop" id="mainMiddleDialogueTop">
+                        <div class="mainMiddleDialogueTitle">
+                            <h3>Dialogue</h3>
+                            <div class="talkSound">
+                                <audio controls preload="auto">
+                                        <source src="Audio/test.mp3" type="audio/mp3">
+                                </audio>
+                            </div>
+                        </div>
+                        <div class="hiddenBox" id="hiddenBox">
+                            <label for="label1">日本語訳を表示</label>
+                            <input type="checkbox" id="label1" class="Checkbox">
+                            <div class="talkList" id="talkList">
+                                <b>Louna :</b>
+                                <p>Salut Paul.Ça va?</p>
+                                <div class="talkListSound">
+                                    <p onclick="ring1()" class="talkListSound">再生</p>
+                                    <audio replay="auto" id="talkListSound1">
+                                        <source src="Audio/test.mp3" type="audio/mp3">
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="hidden_show">
+                                <p><span>Louna :</span>やあ、ポール！　元気？</p>
+                            </div>
+                            <div class="talkList" id="talkList">
+                                <b>Paul :</b>
+                                <p>Bonjour Louna! Oui, ça va. Et toi?</p>
+                                <div class="talkListSound">
+                                    <p onclick="ring2()" class="talkListSound">再生</p>
+                                    <audio replay="auto" id="talkListSound2">
+                                        <source src="Audio/test.mp3" type="audio/mp3">
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="hidden_show">
+                                <p><span>Paul :</span>こんにちは、ルーナ！　元気だよ。あなたは？</p>
+                            </div>
+                            <div class="talkList" id="talkList">
+                                <b>Louna :</b>
+                                <p>Très bien, merci. (...) Bonne journée!</p>
+                                <div class="talkListSound">
+                                    <p onclick="ring3()" class="talkListSound">再生</p>
+                                    <audio replay="auto" id="talkListSound3">
+                                        <source src="Audio/test.mp3" type="audio/mp3">
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="hidden_show">
+                                <p><span>Louna :</span>とても元気だよ。ありがとう。いい1日を過ごしてね！</p>
+                            </div>
+                            <div class="talkList" id="talkList">
+                                <b>Paul :</b>
+                                <p>Merci, toi aussi. À bientôt.</p>
+                                <div class="talkListSound">
+                                    <p onclick="ring4()" class="talkListSound">再生</p>
+                                    <audio replay="auto" id="talkListSound4">
+                                        <source src="Audio/test.mp3" type="audio/mp3">
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="hidden_show">
+                                <p><span>Paul :</span>ありがとう。あなたも。またね。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainMiddleVocabulaire" id="mainMiddleVocabulaire">
+                    <h3>Vocabulaire</h3>
+                    <table>
+                        <tr>
+                            <th>bonjour</th>
+                            <td>こんにちは</td>
+                        </tr>
+                        <tr>
+                            <th>ça va?</th>
+                            <td>元気ですか</td>
+                        </tr>
+                        <tr>
+                            <th>salut</th>
+                            <td>やあ、じゃあね</td>
+                        </tr>
+                        <tr>
+                            <th>oui</th>
+                            <td>はい</td>
+                        </tr>
+                        <tr>
+                            <th>et</th>
+                            <td>それで</td>
+                        </tr>
+                        <tr>
+                            <th>toi</th>
+                            <td>あなた、君</td>
+                        </tr>
+                        <tr>
+                            <th>très</th>
+                            <td>とても</td>
+                        </tr>
+                        <tr>
+                            <th>bien</th>
+                            <td>よい</td>
+                        </tr>
+                        <tr>
+                            <th>merci</th>
+                            <td>ありがとう</td>
+                        </tr>
+                        <tr>
+                            <th>bonne</th>
+                            <td>よい（bonの女性形）</td>
+                        </tr>
+                        <tr>
+                            <th>journée</th>
+                            <td>一日</td>
+                        </tr>
+                        <tr>
+                            <th>aussi</th>
+                            <td>～も</td>
+                        </tr>
+                        <tr>
+                            <th>à bientôt</th>
+                            <td>また後で</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="mainMiddleExpressions" id="mainMiddleExpressions">
+                    <h3>Expressions utiles</h3>
+                    <table>
+                        <tr>
+                            <th>Bonsoir</th>
+                            <td>こんばんは</td>
+                        </tr>
+                        <tr>
+                            <th>Bonne soirée</th>
+                            <td>良い夜を</td>
+                        </tr>
+                        <tr>
+                            <th>Bonne nuit</th>
+                            <td>おやすみなさい</td>
+                        </tr>
+                        <tr>
+                            <th>Au revoir</th>
+                            <td>さようなら</td>
+                        </tr>
+                        <tr>
+                            <th>À bientôt</th>
+                            <td>またね！</td>
+                        </tr>
+                        <tr>
+                            <th>À demain</th>
+                            <td>また明日！</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainBottom" id="mainBottom">
+                <h3>Quiz</h3>
+                
+            </div>
+        </main>
+        <!-- メイン終わり -->
+        <script src="francais.js"></script>
+    </body>
+</html>

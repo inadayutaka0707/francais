@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>初めての会話</title>
+        <link href="css/francais_mail_5.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="headerTitle">
+                <h1>初めての会話</h1>
+            </div>
+            <div class="headerContent">
+                <p>初めての会話で知らないことばが多いですが、一緒にみてみましょう。</p>
+            </div>
+        </header>
+        
+        <main>
+            <div class="mainContent1">
+                <div class="mainContent1_image">
+                    <img src="img/poulet.jpg" width=500px height=350px>
+                </div>
+                <div class="mainContent1_text">
+                    <p>Vous は「あなた」という意味です。</p>
+                    <br>
+                    <p>Vous は、通常相手が複数人いたときの2人称「あなたたち」として使いますが、</p>
+                    <p>相手に対して礼儀を示す必要がある場合は相手が1人称でも Vous で表します。</p>
+                    <br>
+                    <p>「Vous allez bien ?」は決まったフレーズで「お元気ですか」という意味です。</p>
+                    <br>
+                    <h3>LA LIAISON</h3>
+                    <br>
+                    <p>レッスン４では「単語の最後にある子音を発音しない」と言いましたが、</p>
+                    <p>次の言葉が母音で始まる場合はその子音をつなげて読みます。</p>
+                    <p>これは”la liaison” (リエゾン)と呼ばれます。</p>
+                    <br>
+                    <p>vous allez リエゾンがあり「ヴザレ」と読みます。</p>
+                    <p>Très bienで「とても元気ですよ」と使えることができます。</p>
+                    <p>Et vous ? は「あなたは？」</p>
+                    <p>Merci は「ありがとう」という意味です。</p>
+                </div>
+            </div>
+            <div class="mainContent2">
+                <div class="mainContent2_image">
+                    <img src="img/poulet.jpg" width=500px height=350px>
+                </div>
+                <div class="mainContent2_text">
+                    <p>今回は友達同士の会話です。</p>
+                    <p>Tu は「あなた」の親しいバージョンです。</p>
+                    <br>
+                    <p>Et vous は　Et toi ?　（あなたは） になりました。</p>
+                    <br>
+                    <p>Ça va ? は「元気？」という意味です。</p>
+                    <p>この質問に答えるのに “Ça va.” 「元気。」を使います。</p>
+                    <br>
+                    <br>
+                    <p> ç にはcédille という記号があります。</p>
+                    <p>“c” の発音は[k]ではなく[s]になります。</p>
+                </div>
+            </div>
+            
+            <div class="quizContentTitle">
+                <h3>Exercice</h3>
+            </div>
+            <div class="quizContent1">
+                <h4>Ⅰ.次の言葉の意味を日本語で書いてください。</h4>
+                <table>
+                    <tr id="quizContent1_answerAdd_5_1">
+                        <td>Tu</td>
+                        <td>=</td>
+                        <td><input type="text" id="quizContent1_5_1"></td>
+                    </tr>
+                    <tr id="quizContent1_answerAdd_5_2">
+                        <td>Merci</td>
+                        <td>=</td>
+                        <td><input type="text" id="quizContent1_5_2"></td>
+                    </tr>
+                    <tr id="quizContent1_answerAdd_5_3">
+                        <td>ça va</td>
+                        <td>=</td>
+                        <td><input type="text" id="quizContent1_5_3"></td>
+                    </tr>
+                </table>
+                <div class="answer">
+                    <p id="answer5_1" onclick="answer5_1()">答え合わせ</p>
+                    <div class="hiddenBottom">
+                        <p id="answer5_2" onclick="answer5_2()">答えを隠す</p>
+                    </div>
+                </div>
+            </div>
+            <div class="quizContent2">
+                <h4>Ⅱ.正しい文を選んでください。</h4>
+                <div class="quizContent2_No">
+                    <p>1</p>
+                </div>
+                <table>
+                    <tr id="quizContent2_answerAdd_5_1">
+                        <td>a.</td>
+                        <td>Vous allez bien ?</td>
+                        <td><input type="radio" name="quizContent2_1" id="quizContent2_5_1"></td>
+                    </tr>
+                    <tr id="quizContent2_answerAdd_5_2">
+                        <td>b.</td>
+                        <td>Vous vas bien ?</td>
+                        <td><input type="radio" name="quizContent2_1" id="quizContent2_5_2"></td>
+                    </tr>
+                    <tr id="quizContent2_answerAdd_5_3">
+                        <td>c.</td>
+                        <td>Tu allez bien ?</td>
+                        <td><input type="radio" name="quizContent2_1" id="quizContent2_5_3"></td>
+                    </tr>
+                </table>
+                <div class="quizContent2_No">
+                    <p>2</p>
+                </div>
+                <table>
+                    <tr id="quizContent2_answerAdd_5_4">
+                        <td>a.</td>
+                        <td>Salute José !</td>
+                        <td><input type="radio" name="quizContent2_2" id="quizContent2_5_4"></td>
+                    </tr>
+                    <tr id="quizContent2_answerAdd_5_5">
+                        <td>b.</td>
+                        <td>Salut José !</td>
+                        <td><input type="radio" name="quizContent2_2" id="quizContent2_5_5"></td>
+                    </tr>
+                    <tr id="quizContent2_answerAdd_5_6">
+                        <td>c.</td>
+                        <td>Salu José !</td>
+                        <td><input type="radio" name="quizContent2_2" id="quizContent2_5_6"></td>
+                    </tr>
+                </table>
+                <div class="quizContent2_No">
+                    <p>3</p>
+                </div>
+                <table>
+                    <tr id="quizContent2_answerAdd_5_7">
+                        <td>a.</td>
+                        <td>ça va, et tu ?</td>
+                        <td><input type="radio" name="quizContent2_3" id="quizContent2_5_7"></td>
+                    </tr>
+                    <tr id="quizContent2_answerAdd_5_8">
+                        <td>b.</td>
+                        <td>ça va, et tout ?</td>
+                        <td><input type="radio" name="quizContent2_3" id="quizContent2_5_8"></td>
+                    </tr>
+                    <tr id="quizContent2_answerAdd_5_9">
+                        <td>c.</td>
+                        <td>ça va, et toi ?</td>
+                        <td><input type="radio" name="quizContent2_3" id="quizContent2_5_9"></td>
+                    </tr>
+                </table>
+                <div class="answer">
+                    <p id="answer5_3" onclick="answer5_3()">答え合わせ</p>
+                    <div class="hiddenBottom">
+                        <p id="answer5_4" onclick="answer5_4()">答えを隠す</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="francais_mail.js"></script>
+    </body>
+</html>
